@@ -56,7 +56,7 @@ for cidade in cidades:
     time.sleep(2)  # Espera 2 segundos entre as requisições
 
 # Salvando os eventos em um arquivo JSON dentro da pasta data
-with open('data\eventos.json', 'w', encoding='utf-8') as f:
+with open('data/eventos.json', 'w', encoding='utf-8') as f:
     json.dump(eventos, f, ensure_ascii=False, indent=4)
 
 logging.info("Eventos coletados com sucesso!")
